@@ -1,4 +1,4 @@
-package tech.leonardorodrigues.caching.api.data;
+package tech.leonardorodrigues.caching.implementations.api.data;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

@@ -1,6 +1,6 @@
-package tech.leonardorodrigues.caching.api.data;
+package tech.leonardorodrigues.caching.implementations.api.data;
 
-import tech.leonardorodrigues.caching.entity.User;
+import tech.leonardorodrigues.caching.implementations.entity.User;
 
 public record UserRequest(
         String name,

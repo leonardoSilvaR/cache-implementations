@@ -1,4 +1,4 @@
-package tech.leonardorodrigues.caching.api;
+package tech.leonardorodrigues.caching.implementations.api;
 
 
 import jakarta.servlet.http.HttpServletRequest;
@@ -6,10 +6,10 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-import tech.leonardorodrigues.caching.api.data.UserEmail;
-import tech.leonardorodrigues.caching.api.data.UserRequest;
-import tech.leonardorodrigues.caching.api.data.UserResponse;
-import tech.leonardorodrigues.caching.service.UserService;
+import tech.leonardorodrigues.caching.implementations.api.data.UserEmail;
+import tech.leonardorodrigues.caching.implementations.api.data.UserRequest;
+import tech.leonardorodrigues.caching.implementations.api.data.UserResponse;
+import tech.leonardorodrigues.caching.implementations.service.UserService;
 
 import java.net.URI;
 import java.util.List;
