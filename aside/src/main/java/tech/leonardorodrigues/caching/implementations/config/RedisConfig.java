@@ -1,4 +1,4 @@
-package tech.leonardorodrigues.caching.config;
+package tech.leonardorodrigues.caching.implementations.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

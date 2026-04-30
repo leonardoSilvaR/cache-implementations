@@ -1,4 +1,4 @@
-package tech.leonardorodrigues.caching.entity;
+package tech.leonardorodrigues.caching.implementations.entity;
 
 import jakarta.persistence.*;
 

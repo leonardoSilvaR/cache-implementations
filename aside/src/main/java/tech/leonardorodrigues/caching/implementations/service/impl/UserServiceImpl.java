@@ -1,22 +1,20 @@
-package tech.leonardorodrigues.caching.service.impl;
+package tech.leonardorodrigues.caching.implementations.service.impl;
 
 import io.micrometer.core.instrument.MeterRegistry;
-import io.micrometer.core.instrument.Timer;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
-import tech.leonardorodrigues.caching.api.data.UserEmail;
-import tech.leonardorodrigues.caching.api.data.UserRequest;
-import tech.leonardorodrigues.caching.api.data.UserResponse;
-import tech.leonardorodrigues.caching.entity.User;
-import tech.leonardorodrigues.caching.repository.UserRepository;
-import tech.leonardorodrigues.caching.service.UserService;
+import tech.leonardorodrigues.caching.implementations.api.data.UserEmail;
+import tech.leonardorodrigues.caching.implementations.api.data.UserRequest;
+import tech.leonardorodrigues.caching.implementations.api.data.UserResponse;
+import tech.leonardorodrigues.caching.implementations.entity.User;
+import tech.leonardorodrigues.caching.implementations.repository.UserRepository;
+import tech.leonardorodrigues.caching.implementations.service.UserService;
 
 import java.time.Duration;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.concurrent.TimeUnit;
 
 @Service
 public class UserServiceImpl implements UserService {
